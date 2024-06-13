@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#fff;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+header{
+   padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #5c5c5c;
+   text-decoration: none;
+   display: inline-block;
+   transition: .2s;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+img {
+    width: 180px;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header nav ul li img{
+    width: 30px;
+}
+section .topo-do-site{
+     padding: 40px 4%;
+}
+
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+section .sobre{
+    padding: 40px 4%;
+}
+
+section .sobre .flex{
+    align-items: center;
+    gap: 6px;
+}
+
+.img-sobre{
+    margin-top: 2em;
+}
+
+.txt-sobre {
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+.fale-comigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ispiki {
+    margin-right: 20em;
+}
+
+.ispiki-with-me {
+    font-size: 28px;
+}
+
+label {
+    color: rgb(143, 107, 226);
+}
+
+input {
+    background-color: #000;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px 12px;
+}
+    
+input::-webkit-input-placeholder {
+    color: #b9b9b9;
+}
+
+.botao {
+    border: none;
+    background-color: #fff;
+    border-radius: 12px;
+    color: rgb(124, 100, 209);
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
