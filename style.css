@@ -124,4 +124,5 @@ input::-webkit-input-placeholder {
     color: #fff;
     background-color: rgb(124, 100, 209);
     transform: scale(1.05);
+    cursor: pointer;
 }
