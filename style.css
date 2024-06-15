@@ -104,7 +104,10 @@ input {
     border: none;
     border-bottom: 1px solid #fff;
     padding: 10px 12px;
-    color: #fff;
+}
+
+#name, #email, #text {
+    color: white;
 }
     
 input::-webkit-input-placeholder {
