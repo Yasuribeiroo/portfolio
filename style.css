@@ -120,7 +120,7 @@ input::-webkit-input-placeholder {
     font-weight: 600;
 }
 
-botao:hover {
+.botao:hover {
     color: #fff;
     background-color: rgb(124, 100, 209);
     transform: scale(1.05);
